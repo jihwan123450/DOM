@@ -51,10 +51,10 @@
 }
 .dot {
   display:block;
-  height:30px;
-  width:30px;
+  height:40px;
+  width:40px;
   border-radius:100%;
-  background-color:white;
+  background-color:ivory;
   margin:7%;
 }
 /*dice dot */
