@@ -151,11 +151,11 @@ function titlechange(dotNum,dotNum2){
     title.textContent = "DRAW!!";
   }else if(dotNum > dotNum2){
 
-    title.innerHTML= `${player1.toUpperCase()}  Wins !!`;
+    title.innerHTML= `🚩${player1.toUpperCase()}  Wins !!`;
 
   }else {
 
-    title.innerHTML = `${player2.toUpperCase()} Wins !!`;
+    title.innerHTML = `${player2.toUpperCase()} Wins !!🚩`;
 
   }
 }
