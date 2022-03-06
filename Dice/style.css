@@ -1,0 +1,101 @@
+#diceweb {
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  color:#45BD94;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#35353F;
+}
+.welcometitle {
+  font-weight:700;
+  font-size: 100px;
+}
+.dices {
+  display:flex;
+  font-weight:100;
+  padding-top: 7%;
+  width: 50%;
+  justify-content: space-between;
+}
+.dices span{
+  font-weight: 500;
+  font-size: 30px;
+}
+.defaultdice{
+  height:200px;
+  width:200px;
+  background-color:#940212;
+  border-radius:10px;
+  margin: 20px 30px;
+  font-size: 150px;
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.dicebtn {
+  margin: 5%;
+}
+
+/* dice */
+.diceRandom {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+.dot {
+  display:block;
+  height:30px;
+  width:30px;
+  border-radius:100%;
+  background-color:white;
+  margin:7%;
+}
+/*dice dot */
+.firstrow{
+  display:flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  justify-content: space-between;
+  width:90%;
+}
+
+.secondrow{
+  display:flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width:90%;
+}
+
+.thirdrow{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  justify-content: space-between;
+  width:90%;
+}
+.dot5 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:90%;
+}
+
+.player1 input{
+  border-radius : 10px;
+  width: 200px;
+  background-color: #D9D9D9;
+}
+.player2 input{
+  border-radius : 10px;
+  background-color: #D9D9D9;
+  width: 200px;
+}
